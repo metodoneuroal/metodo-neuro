@@ -227,7 +227,7 @@ export function BiohackerTracker({ onNavigateToShop }: { onNavigateToShop?: () =
             </div>
           ))
         ) : (
-          suplements.map(s => (
+          supplements.map(s => (
             <div key={s.id} className="p-4 rounded-2xl bg-zinc-900/40 border border-zinc-800">
                <div className="flex items-center gap-3">
                   <div className="p-2 bg-zinc-800 rounded-lg">{s.icon}</div>
